@@ -6,6 +6,7 @@
 body {
     width: 100vw;
     overflow-x: hidden;
+    background-color: #141318
 }
 
 h1 {
@@ -13,20 +14,60 @@ h1 {
     font-size: 60px;
     color: #d6af36
 }
+.background {
+    position: absolute;
+    width: 50vw;
+    height: 3110px;
+    right: 0;
+    background-color: red;
+    background-image: url("alcoholic-beverage-beer-cold-1009068.jpg");
+    background-size: cover;
+    background-position: 45%; 
+}
 
 h3 {
     font-family: "Roboto Slab", sans-serif;
-    font-size: 24px;
+    font-size: 26px;
     color: black;
 }
 
 h4 {
     font-family: "Roboto Slab", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #d6af36;
+}
+
+h5 {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 16px;
+    color: black;
+    padding-top: 20px;
+}
+
+p {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 14px;
+    color: rgb(65, 65, 65);
+    font-style: italic;
 }
 
 .card {
     width: 30%;
     padding: 15px;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 16px;
+    color: #141318;
+    background-color: #d6af36;
+    border: none;
+    border-radius: 3px;
+}
+
+.display {
+    display: none;
 }
