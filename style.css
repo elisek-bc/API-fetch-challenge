@@ -23,6 +23,7 @@ h1 {
     background-image: url("alcoholic-beverage-beer-cold-1009068.jpg");
     background-size: cover;
     background-position: 45%; 
+    z-index: -1;
 }
 
 h3 {
@@ -70,4 +71,21 @@ button {
 
 .display {
     display: none;
+}
+
+footer {
+    padding: 10px;
+    background-color: #141318;
+    z-index: 10;
+    text-align: center;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 5px 0px 0px 0px;
+}
+
+footer a, footer a:hover{
+    color: white;
+
 }
