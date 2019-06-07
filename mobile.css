@@ -3,11 +3,11 @@
     padding:0;
 }
 
-body {
+html, body {
     width: 100vw;
     overflow-x: hidden;
     background-color: #141318;
-    padding-bottom: 70px;
+    padding-bottom: 35px;
 }
 
 h1 {
@@ -50,6 +50,8 @@ p {
 
 .buttonrow {
     width:100vw;
+    position: relative;
+    height: 20px;
 }
 
 button {
@@ -61,7 +63,11 @@ button {
     border: none;
     border-radius: 3px;
     text-align:center;
-    margin: auto;
+    position: absolute;
+    left: 25vw;
+    right: 25vw;
+    bottom: 0px;
+
 }
 
 .display {
