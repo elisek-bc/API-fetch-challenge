@@ -22,6 +22,8 @@ function createCards(param) { // Map through the results and for each run the co
     subtitle.classList.add("display");
 
     let description = document.createElement('p');
+
+    
     description.innerHTML = `${param.description}`;
     description.classList.add("display");
     
@@ -73,3 +75,6 @@ fetch(random) // Call the fetch function passing the url of the API as a paramet
         behavior: 'smooth'
     });
 };
+
+
+const refresh = document.getElementById("")
